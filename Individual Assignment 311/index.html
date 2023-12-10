@@ -1,0 +1,167 @@
+<html>
+<head>
+<title> HOME </title>
+ <link rel="stylesheet" href="text.css">
+</head>
+
+<a name="TOP_PAGE"> </a>
+
+
+<div class="topnav">
+	<a href="gallery.html"> GALLERY </a>
+	<a href="work experience.html"> WORK EXPERIENCE </a>
+        <a href="skills.html"> SKILLS </a>
+  	<a href="education.html"> EDUCATION </a>
+        <a href="about family.html"> ABOUT FAMILY </a>
+	<a href="about me.html"> ABOUT ME </a>
+	<a href="index.html"> HOME </a>
+
+<div class="logo">	
+	<a href="https://kedah.uitm.edu.my/"> <img src="image/uitm1.png" width="40px" align="left"></a> 
+</div>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="container">
+  <img src="image/background.jpg" alt="ABSTRACT" class="image" style="width:100%" align:"center">
+  <div class="middle">
+    <div class="text"> WELCOME TO MY PAGE </div>
+  </div>
+</div>
+
+<br><br><br>
+
+
+<hr>
+<hr width="100%" color="394867"></hr>
+<marquee class="blink" scrollamount="20"> FAVORITE PHOTOS </marquee>
+<hr width="100%" color="394867"></hr>
+<hr>
+<br><br><br>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="image/family.jpg" style="width:100%">
+    <div class="text"> MY FAMILY </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="image/classmates.jpg" style="width:100%">
+    <div class="text"> MY CLASSMATES </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="image/friends.jpg" style="width:100%">
+    <div class="text"> CLOSE FRIENDS </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="image/tanjungdawai.jpg" style="width:100%">
+    <div class="text"> TANJUNG DAWAI, KEDAH </div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="image/pantaimurni.jpg" style="width:100%">
+    <div class="text"> PANTAI MURNI, KEDAH </div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="IMAGE/nct.webp" style="width:100%">
+    <div class="text"> NCT, K-POP GROUP </div>
+  </div>
+
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br><br>
+
+<br><br>
+	<center> <p style="padding: 5px; background-color: #394867;"> <font size="20px" color="white" face="Arial"> <b><i> UiTM DI HATIKU 2021 </center> </b></i> </font> </p>
+
+<div align="center">
+<audio controls>
+	<source src="music/uitmdihatiku.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<br><br>
+<hr>
+<hr width="100%" color="394867"></hr>
+<marquee class="blink" scrollamount="20"> PDF FILE </marquee>
+<hr width="100%" color="394867"></hr>
+<hr>
+<br><br>
+<center>
+<iframe src="file/profileuitm.pdf" width="80%" height="70%">
+</iframe>
+</center>
+
+<br><br>
+<a href="#TOP_PAGE">
+<img src="image/button.png" height="50px" width="50px" align="right">
+</a>
+<br><br><br>
+
+<footer class="footer">
+  <a name="WHATSAPP"> </a>
+<a href="https://api.whatsapp.com/send?phone=60169895756"> <img src="image/whatsapp.png" width="4%"> </a> 
+
+  <a name="INSTAGRAM"> </a>
+<a href="https://www.instagram.com/waf_o_0?igshid=ZDc4ODBmNjlmNQ==" target="_blank"> <img src="image/ig.png" width="4%"> </a>
+	
+  <address> Click here to email me: <a href="mailto:muhammadwafi373@gmail.com"> <font color="#9BA4B5"> muhammadwafi373@gmail.com </font> </a> <br>
+</address>
+
+  <p> © COPYRIGHT WAFI 2023. <br>
+</footer>
+</footer>
+
+</body>
+</html>

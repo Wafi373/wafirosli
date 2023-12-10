@@ -1,0 +1,257 @@
+<html>
+<head>
+<title> EDUCATION & SKILLS </title>
+ <link rel="stylesheet" href="text.css">
+</head>
+
+<a name="TOP_PAGE"> </a>
+
+
+<div class="topnav">
+	<a href="gallery.html"> GALLERY </a>
+	<a href="work experience.html"> WORK EXPERIENCE </a>
+        <a href="skills.html"> SKILLS </a>
+  	<a href="education.html"> EDUCATION </a>
+        <a href="about family.html"> ABOUT FAMILY </a>
+	<a href="about me.html"> ABOUT ME </a>
+	<a href="index.html"> HOME </a>
+
+<div class="logo">	
+	<a href="https://kedah.uitm.edu.my/"> <img src="image/uitm1.png" width="40px" align="left"></a> 
+</div>
+</div>
+
+<div class="img_container">
+  <img src="image/telukmedan.jpg" alt="Sekolah Kebangsaan Teluk Medan" style="width:100%;">
+  <div class="text-block">
+    <h4> <i> Primary School </i> </h4>
+    <p style="font-family:Times New Roman"> Sekolah Kebangsaan Teluk Medan </p>
+  </div>
+</div>
+
+<p class="dotted"> 
+	<b> I started school at <a href="https://ms.wikipedia.org/wiki/Sekolah_Kebangsaan_Teluk_Medan" target="_blank" color="white"> "Sekolah Kebangsaan Teluk Medan" </a> since 2010 until 	2015. </b> 
+    
+<ul>
+  <li> <i> 2010 - Standard 1 </i> </li>
+  <li> <i> 2011 - Standard 2 </i> </li>
+  <li> <i> 2012 - Standard 3 </i> </li>
+  <li> <i> 2013 - Standard 4 </i> </li>
+  <li> <i> 2014 - Standard 5 </i> </li>
+  <li> <i> 2015 - Standard 6 </i> </li>
+</ul>
+</p>
+
+<hr width="100%" color="394867"></hr>
+	<marquee direction="right" scrollamount="20"> 
+	<div class="h1"><h1 style="color: #394867;"> UPSR RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; UPSR RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; UPSR RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; UPSR RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; UPSR RESULT! </h1> </div></marquee>
+<hr width="100%" color="394867"></hr>   
+<br> 
+<br>
+
+<!----- COLUMN ----->
+<div id="btnContainer">
+  <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+  <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+</div>
+<br>
+
+<div class="row">
+  <div class="column" style="background-color:#0A2647;">
+    <div class="h3"> <h3 style="color: white;"> Bahasa Melayu - Pemahaman </h3> </div>
+    <p style="color: white;"> A </p>
+  
+</div>
+  <div class="column" style="background-color:#144272;">
+    <div class="h3"> <h3 style="color: white;"> Bahasa Melayu - Penulisan </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#205295;">
+  <div class="h3"> <h3 style="color: white;"> Bahasa Inggeris </h3></div>
+    <p style="color: white;"> B </p>
+  </div>
+  
+<div class="column" style="background-color:#2C74B3;">
+   <div class="h3"> <h3 style="color: white;"> Mathematics </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+
+</div>
+ <div class="column" style="background-color:#93BFCF;">
+  <div class="h3"> <h3 style="color: white;"> Science </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+</div>
+<br><br>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+} 
+
+/* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementById("btnContainer");
+var btns = container.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<br>
+<br>
+
+<div class="img_container">
+  <img src="image/smk.jpg" alt="SMK ABU BAKAR AL-BAQIR" style="width:100%;">
+  <div class="text-block">
+    <h4> <i> High School </i> </h4>
+    <p style="font-family:Times New Roman"> Sekolah Menengah Kebangsaan Abu Bakar Al-Baqir </p>
+  </div>
+</div>
+
+<p class="dotted"> 
+	<b> I started high school at <a href="https://ms.wikipedia.org/wiki/Sekolah_Menengah_Kebangsaan_Abu_Bakar_Al-Baqir" target="_blank" color="white"> "Sekolah Menengah Kebangsaan Abu Bakar Al-Baqir " </a> since 2016 until 2020. </b> 
+    
+<ul>
+  <li> <i> 2016 - Form 1 </i> </li>
+  <li> <i> 2017 - Form 2 </i> </li>
+  <li> <i> 2018 - Form 3 </i> </li>
+  <li> <i> 2019 - Form 4 </i> </li>
+  <li> <i> 2020 - Form 5 </i> </li>
+</ul>
+</p>
+
+<hr width="100%" color="394867"></hr>
+	<marquee direction="right" scrollamount="20"> 
+	<div class="h1"><h1 style="color: #394867;"> SPM RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; SPM RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; SPM RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; SPM RESULT! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; SPM RESULT! </h1> </div></marquee>
+<hr width="100%" color="394867"></hr>   
+<br>
+
+<!----- COLUMN ----->
+<div id="btnContainer">
+  <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+  <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+</div>
+<br>
+
+<div class="row">
+  <div class="column" style="background-color:#0A2647;">
+    <div class="h3"> <h3 style="color: white;"> Bahasa Melayu </h3> </div>
+    <p style="color: white;"> A </p>
+  
+</div>
+  <div class="column" style="background-color:#144272;">
+    <div class="h3"> <h3 style="color: white;"> Bahasa Inggeris </h3></div>
+    <p style="color: white;"> B </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#205295;">
+  <div class="h3"> <h3 style="color: white;"> Pendidikan Islam </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+  
+<div class="column" style="background-color:#2C74B3;">
+   <div class="h3"> <h3 style="color: white;"> Mathematics </h3></div>
+    <p style="color: white;"> D </p>
+  </div>
+
+</div>
+ <div class="column" style="background-color:#93BFCF;">
+  <div class="h3"> <h3 style="color: white;"> Science </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+</div>
+
+</div>
+ <div class="column" style="background-color:#C4DFDF;">
+  <div class="h3"> <h3 style="color: white;"> Perniagaan </h3></div>
+    <p style="color: white;"> A- </p>
+  </div>
+</div>
+
+</div>
+ <div class="column" style="background-color:#2C74B3;">
+  <div class="h3"> <h3 style="color: white;"> Sejarah </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+</div>
+
+</div>
+ <div class="column" style="background-color:#205295;">
+  <div class="h3"> <h3 style="color: white;"> Sport Science </h3></div>
+    <p style="color: white;"> A- </p>
+  </div>
+
+</div>
+ <div class="column" style="background-color:#205295;">
+  <div class="h3"> <h3 style="color: white;"> Economy </h3></div>
+    <p style="color: white;"> A- </p>
+  </div>
+
+</div>
+ <div class="column" style="background-color:#93BFCF;">
+  <div class="h3"> <h3 style="color: white;"> Tasawwur Islam </h3></div>
+    <p style="color: white;"> A </p>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="img_container">
+  <img src="image/uitm kedah.jpg" alt="Univeriti Teknologi MARA Cawangan Kedah" style="width:100%;">
+  <div class="text-block">
+    <h4> <i> University </i> </h4>
+    <p style="font-family:Times New Roman"> Univeriti Teknologi MARA Cawangan Kedah </p>
+  </div>
+</div>
+
+<!----- OUTLINE UITM ----->
+<p class="dotted"> 
+	<b> I entered university in <a href="https://kedah.uitm.edu.my/" target="_blank" color="white"> "UiTM Cawangan Kedah" </a> in Sungai Petani since 2021 until 2024. </b> 
+    
+<ul>
+  <li> <i> 2021 - 1st Semester </i> </li>
+  <li> <i> 2022 - 2nd Semester </i> </li>
+  <li> <i> 2023 - 3rd Semester </i> </li>
+  <li> <i> 2023 - 4th Semester </i> </li>
+  <li> <i> 2023/4 - 5th Semester </i> </li>
+</ul>
+</p>
+
+<br>
+<a href="#TOP_PAGE">
+<img src="image/button.png" height="50px" width="50px" align="right">
+</a>
+<br><br><br>
+
+<!---- FOOTER ---->
+<footer class="footer">
+  <p> © COPYRIGHT WAFI 2023. <br>
+
+</body>
+</html>

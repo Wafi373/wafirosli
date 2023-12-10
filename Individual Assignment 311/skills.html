@@ -1,0 +1,77 @@
+<html>
+<head>
+<title> SKILLS </title>
+ <link rel="stylesheet" href="text.css">
+</head>
+
+<a name="TOP_PAGE"> </a>
+
+
+<div class="topnav">
+	<a href="gallery.html"> GALLERY </a>
+	<a href="work experience.html"> WORK EXPERIENCE </a>
+        <a href="skills.html"> SKILLS </a>
+  	<a href="education.html"> EDUCATION </a>
+        <a href="about family.html"> ABOUT FAMILY </a>
+	<a href="about me.html"> ABOUT ME </a>
+	<a href="index.html"> HOME </a>
+
+<div class="logo">	
+	<a href="https://kedah.uitm.edu.my/"> <img src="image/uitm1.png" width="40px" align="left"></a> 
+</div>
+</div>
+
+<!----- SKILLS ----->
+<table align="center">
+<tr>
+<hr width="40%" color="#537188" ></hr>
+<hr width="40%" color="black" ></hr>
+<marquee direction="down"> <h1> <center> <font size="20px" color="526D82" face="Georgia"> SKILLS </center> </h1> </marquee>
+<hr width="40%" color="black" ></hr>
+<hr width="40%" color="#537188" ></hr>
+</tr>
+</table>
+
+<ol class="expandable-list">
+  <li> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Adobe: </b> </i>Developed proficient skills in using Adobe software and allowed to create visually compelling designs and effectively communicate ideas through visual media: </font>
+  <ul> 
+  <li type="square"> Adobe Photoshop </li>
+  <li type="square"> Adobe InDesign </li>
+  <li type="square"> Adobe Animate </li>
+  </ul>
+  <li> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Adaptability:</b> </i> Being adaptable and open to change is crucial in today's dynamic work environment. Employers appreciate individuals who can quickly adjust to new situations and learn new skills. </font> </li>
+  
+  <li class="expandable hidden"> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Teamwork: </b> </i> Working well in a team and being able to collaborate with colleagues from diverse backgrounds is important for achieving common goals. </font> </li> 
+  
+  <li class="expandable hidden"> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Time Management: </b> </i> Efficiently managing time, setting priorities, and meeting deadlines demonstrate strong organizational skills and the ability to handle multiple tasks. </font> </li>
+  
+  <li class="expandable hidden"> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Research Skills: </b> </i> The ability to gather, analyze, and interpret information is essential for making informed decisions and contributing to evidence-based solutions. </font> </li>
+  
+  <li class="expandable hidden"> <font size="5px" color="27374D" face="Times New Roman"> <b> <i> Emotional Intelligence: </b> </i> Having emotional intelligence involves being aware of and managing emotions and effectively understanding and relating to others. It contributes to positive relationships and effective communication. </font> </li> </ol>
+<center> <button class="toggle-button">Read More</button> </center>
+
+<!----- JAVA READ MORE ----->
+<script>
+const button = document.querySelector('.toggle-button');
+const expandableItems = document.querySelectorAll('.expandable');
+
+button.addEventListener('click', function() {
+  expandableItems.forEach(function(item) {
+    item.classList.toggle('hidden');
+  });
+
+  if (button.textContent === 'Read More') {
+    button.textContent = 'Read Less';
+  } else {
+    button.textContent = 'Read More';
+  }
+});
+</script>
+
+<footer class="footer">
+  <p> © COPYRIGHT WAFI 2023. <br>
+</footer>
+</footer>
+
+</body>
+</html>
